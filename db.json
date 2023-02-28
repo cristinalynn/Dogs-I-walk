@@ -1,0 +1,34 @@
+{
+    "dogs": [
+    {
+      "id": 1,
+      "dogBreed": "labrador",
+      "image": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/labrador-retriever-dog-breed-info.jpeg",
+      "likes": 3 
+    },
+    {
+      "id": 2,
+      "dogBreed": "poodle",
+      "image": "https://breed-assets.wisdompanel.com/dog/poodle-miniature-toy/poodle-miniature-toy1.jpg",
+      "likes": 1
+    },
+    {
+      "id": 3,
+      "dogBreed": "pomeranian",
+      "image": "https://image.petmd.com/files/styles/863x625/public/2022-10/pomeranian.jpeg",
+      "likes": 2
+    },
+    {
+      "id": 4,
+      "dogBreed": "german shepherd",
+      "image": "https://dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/laying-1.jpg",
+      "likes": 1
+    },
+    {
+      "id": 5,
+      "dogBreed": "golden retriever",
+      "image": "https://www.rover.com/blog/wp-content/uploads/2021/06/denvers_golden_life-1024x1024.jpg",
+      "likes": 5
+    }
+  ]
+}
