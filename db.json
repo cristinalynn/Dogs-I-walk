@@ -32,8 +32,20 @@
       "id": 5,
       "name": "Rona",
       "dogBreed": "golden retriever",
-      "image": "https://www.rover.com/blog/wp-content/uploads/2021/06/denvers_golden_life-1024x1024.jpg",
+      "image": "https://fwkc-cloudinary.corebine.com/fwkc-production/image/upload/v1/fwkc-prod/May_1",
       "likes": 5
+    },
+    {
+      "id": 6,
+      "name": "Buddy",
+      "dogBreed": "labrador",
+      "image": "https://www.yourpurebredpuppy.com/dogbreeds/photos2-L/labrador-retriever-04.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Charlie",
+      "dogBreed": "golden retriever",
+      "image": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/02/golden-retriever-common-health-issues.jpeg"
     }
   ]
 }
