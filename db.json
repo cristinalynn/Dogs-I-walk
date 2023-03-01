@@ -4,36 +4,31 @@
       "id": 1,
       "name": "Luna",
       "dogBreed": "labrador",
-      "image": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/labrador-retriever-dog-breed-info.jpeg",
-      "likes": 3 
+      "image": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/labrador-retriever-dog-breed-info.jpeg"
     },
     {
       "id": 2,
       "name": "Stella",
       "dogBreed": "poodle",
-      "image": "https://breed-assets.wisdompanel.com/dog/poodle-miniature-toy/poodle-miniature-toy1.jpg",
-      "likes": 1
+      "image": "https://breed-assets.wisdompanel.com/dog/poodle-miniature-toy/poodle-miniature-toy1.jpg"
     },
     {
       "id": 3,
       "name": "Bella",
       "dogBreed": "pomeranian",
-      "image": "https://image.petmd.com/files/styles/863x625/public/2022-10/pomeranian.jpeg",
-      "likes": 2
+      "image": "https://image.petmd.com/files/styles/863x625/public/2022-10/pomeranian.jpeg"
     },
     {
       "id": 4,
       "name": "Max",
       "dogBreed": "german shepherd",
-      "image": "https://dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/laying-1.jpg",
-      "likes": 1
+      "image": "https://dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/laying-1.jpg"
     },
     {
       "id": 5,
       "name": "Rona",
       "dogBreed": "golden retriever",
-      "image": "https://fwkc-cloudinary.corebine.com/fwkc-production/image/upload/v1/fwkc-prod/May_1",
-      "likes": 5
+      "image": "https://fwkc-cloudinary.corebine.com/fwkc-production/image/upload/v1/fwkc-prod/May_1"
     },
     {
       "id": 6,
