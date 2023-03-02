@@ -60,3 +60,10 @@ body {
     padding: 1rem;
     width: stretch;
     height: auto;
+
+ }
+
+ .dog-img {
+    width: 250px;
+    height: 250px;
+ }
