@@ -1,5 +1,5 @@
 {
-    "dogs": [
+  "dogs": [
     {
       "id": 1,
       "name": "Luna",
@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Stella",
       "dogBreed": "poodle",
-      "image": "https://breed-assets.wisdompanel.com/dog/poodle-miniature-toy/poodle-miniature-toy1.jpg"
+      "image": "https://image.petmd.com/files/styles/863x625/public/2023-01/toy-poodle.jpg"
     },
     {
       "id": 3,
@@ -42,5 +42,6 @@
       "dogBreed": "golden retriever",
       "image": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/02/golden-retriever-common-health-issues.jpeg"
     }
+    
   ]
 }
