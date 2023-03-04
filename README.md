@@ -2,7 +2,7 @@
 
 Hello and welcome to my application. Ever since I was a little girl, I loved dogs and always wanted to own lots of them. Unfortuantely, this never happened so I am happy to just take care of, walk and play with someone esle's dogs. I built this application to keep track of all the dogs I walk. 
 
-![alt text](https://media.tenor.com/YzqdmB57mWYAAAAC/dog-walking-dog-walker.gif)
+![dog-walking-dog-walker](https://user-images.githubusercontent.com/119091146/222929416-49f1b3e2-520d-4b32-987e-515c843a5dda.gif)
 
 ### Installation Instructions
 
