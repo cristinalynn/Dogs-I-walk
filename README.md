@@ -13,6 +13,12 @@ Install the JSON server into your terminal with the following command:
 ```bash
  npm install -g json
   ```
+### Requirements
 
+Once JSON-server is installed, you will need to run the JSON-server command in your terminal to have the db.json file running inside the app's directory. To do so, run this command in your terminal:
+
+```bash
+json-server --watch.db.json
+```
 
 
