@@ -13,7 +13,7 @@ I your terminal run index.html to open the application in your browser.
 Install the JSON server into your terminal with the following command:
 
 ```bash
- npm install -g json
+ npm install -g json-server
   ```
 ### Requirements
 
