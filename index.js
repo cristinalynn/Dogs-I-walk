@@ -1,16 +1,15 @@
 const dogs = []
-document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/dogs') 
+document.addEventListener('DOMContentLoaded', () => {    fetch('http://localhost:3000/dogs') 
     .then(response => response.json())
     //.then(data => showDogs(data))
     .then(data => getDogs(data))
     //console.log(dogs)
     //const searchForm = document.querySelector("form");
+   
     const dogBreedVal = document.getElementById("search-form");
     dogBreedVal.addEventListener("submit", (e) => {
         e.preventDefault();
         console.log(dogs) 
-        
         console.log(dogBreedVal)
         console.log(e.target.dogBreed.value)
         const findDogs = dogs.filter(dog => dog.dogBreed === e.target.dogBreed.value)
@@ -23,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         img.className = "dog-img"
         //console.log(img)
         dogContainer.append(h2, img)
+    })
         
     //console.log(findDogs)})
     //init();
@@ -48,8 +48,8 @@ function showDogs() {
         img.className = "dog-img"
         dogContainer.append(h2, img)
         
-    })
-   
+    }
+    );
 }
 
 // const init = () => {
@@ -82,4 +82,3 @@ function showDogs() {
 
 
 
-});
