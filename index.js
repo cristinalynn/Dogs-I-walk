@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {    fetch('http://localhost
 
 function getDogs(data) {
     data.forEach((dog) => dogs.push(dog))
-    console.log(dogs)
+    
 }
 
 function showDogs() {
