@@ -22,5 +22,3 @@ Once JSON-server is installed, you will need to run the JSON-server command in y
 ```bash
 json-server --watch db.json
 ```
-
-
