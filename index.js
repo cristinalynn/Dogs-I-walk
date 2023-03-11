@@ -1,11 +1,11 @@
 const dogs = []
-document.addEventListener('DOMContentLoaded', () => {    fetch('http://localhost:3000/dogs') 
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('http://localhost:3000/dogs') 
     .then(response => response.json())
     .then(data => getDogs(data))
-    
    
-    const dogBreedVal = document.getElementById("search-form");
-    dogBreedVal.addEventListener("submit", (e) => {
+    const searchForm = document.getElementById("search-form");
+    searchForm.addEventListener("submit", (e) => {
         e.preventDefault();
         const findDogs = dogs.filter(dog => dog.dogBreed === e.target.dogBreed.value)
         findDogs.forEach((dog) => {
