@@ -5,32 +5,33 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => getDogs(data))
    
     const searchForm = document.getElementById("search-form");
-    searchForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const findDogs = dogs.filter(dog => dog.dogBreed === e.target.dogBreed.value)
-        findDogs.forEach((dog) => {
-            const h2 = document.createElement("h2");
-            h2.innerText = dog.name;
-            const dogContainer = document.getElementById("searchByDogBreed_container")
-            const img = document.createElement("img")
-            img.src = dog.image
-            img.className = "dog-img"
-            dogContainer.append(h2, img)
-        })
-    })    
+    searchForm.addEventListener("submit", (e) => {searchDogs(e)})    
    
     const allDogsButton = document.getElementById("all")
-    allDogsButton.addEventListener("click", () => { showDogs()})
+    allDogsButton.addEventListener("click", () => {showAllDogs()})
     
 })
-
 
 function getDogs(data) {
     data.forEach((dog) => dogs.push(dog))
     
 }
 
-function showDogs() {
+function searchDogs(e) {
+    e.preventDefault();
+    const findDogs = dogs.filter(dog => dog.dogBreed === e.target.dogBreed.value)
+    findDogs.forEach((dog) => {
+        const h2 = document.createElement("h2");
+        h2.innerText = dog.name;
+        const dogContainer = document.getElementById("searchByDogBreed_container")
+        const img = document.createElement("img")
+        img.src = dog.image
+        img.className = "dog-img"
+        dogContainer.append(h2, img)
+    })
+}
+
+function showAllDogs() {
     dogs.forEach(dog => { 
         dogs.push(dog)
         const h2 = document.createElement("h2")
@@ -43,8 +44,6 @@ function showDogs() {
         
     }
     );
-
- 
 }
 
 
