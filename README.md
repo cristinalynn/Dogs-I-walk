@@ -1,14 +1,14 @@
 # Description of my 'Dogs I walk' applications
 
-Hello and welcome to my application. Ever since I was a little girl, I loved dogs and always wanted to own lots of them. Unfortuantely, this never happened so I am happy to just take care of, walk and play with someone esle's dogs. I built this application to keep track of all the dogs I walk. 
+Hello and welcome to my application. Ever since I was a little girl, I loved dogs and always wanted to own lots of them. Unfortunately, this never happened, so I am happy to just take care of, walk and play with someone else's dogs. I built this application to keep track of all the dogs I walk.
 
 ![dog-walking-dog-walker](https://user-images.githubusercontent.com/119091146/222929416-49f1b3e2-520d-4b32-987e-515c843a5dda.gif)
 
 ### Installation Instructions
 
-Fork and clone the GitHub repo into your environment [here](https://github.com/cristinalynn/phase-1-project)
+Fork and clone this GitHub repo into your environment.
 
-I your terminal run index.html to open the application in your browser.
+In your terminal, run index.html to open the application in your browser.
 
 Install the JSON server into your terminal with the following command:
 
