@@ -10,6 +10,8 @@ Fork and clone this GitHub repo into your environment.
 
 In your terminal, run index.html to open the application in your browser.
 
+For Ubuntu operating systems, run google-chrome index.html in your terminal to open the application in your browser.
+
 Install the JSON server into your terminal with the following command:
 
 ```bash
