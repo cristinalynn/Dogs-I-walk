@@ -5,7 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => getDogs(data))
    
     const searchForm = document.getElementById("search-form")
-    searchForm.addEventListener("submit", (e) => {searchDogs(e)})    
+    searchForm.addEventListener("submit", (e) => {
+        const dbc = document.getElementById("searchByDogBreed_container")
+        if (dbc.children.length == 0) {
+        searchDogs(e)
+        }
+    })    
    
     const allDogsButton = document.getElementById("all")
     allDogsButton.addEventListener("click", () => {
